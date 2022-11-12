@@ -276,13 +276,12 @@
                         <outletCollection property="multipleLabels" destination="5Rx-n2-HeW" collectionClass="NSMutableArray" id="SSv-YI-zwI"/>
                         <outletCollection property="multipleLabels" destination="zAo-uR-bjd" collectionClass="NSMutableArray" id="k0y-Kk-M7x"/>
                         <outletCollection property="multipleLabels" destination="Sg9-6Y-zLE" collectionClass="NSMutableArray" id="sXh-Oj-b3C"/>
-                        <outletCollection property="multipleSwitches" destination="FFo-2F-PHH" collectionClass="NSMutableArray" id="2RL-Vb-GWu"/>
-                        <outletCollection property="multipleSwitches" destination="FFo-2F-PHH" collectionClass="NSMutableArray" id="cZi-lJ-6eU"/>
-                        <outletCollection property="multipleSwitches" destination="DB3-U7-XuI" collectionClass="NSMutableArray" id="GiX-8b-hnK"/>
-                        <outletCollection property="multipleSwitches" destination="oeA-oJ-oJu" collectionClass="NSMutableArray" id="xd6-6J-YFi"/>
-                        <outletCollection property="multipleSwitches" destination="hXt-qJ-cRJ" collectionClass="NSMutableArray" id="cAF-M8-qyT"/>
                         <outletCollection property="rangedLabels" destination="IWN-CT-5Xw" collectionClass="NSMutableArray" id="FwH-NR-jGr"/>
                         <outletCollection property="rangedLabels" destination="LZV-26-x7D" collectionClass="NSMutableArray" id="und-8p-LXW"/>
+                        <outletCollection property="multipleSwitches" destination="FFo-2F-PHH" collectionClass="NSMutableArray" id="nZY-C8-ULn"/>
+                        <outletCollection property="multipleSwitches" destination="DB3-U7-XuI" collectionClass="NSMutableArray" id="rak-hi-ZYK"/>
+                        <outletCollection property="multipleSwitches" destination="oeA-oJ-oJu" collectionClass="NSMutableArray" id="G3B-c1-VPc"/>
+                        <outletCollection property="multipleSwitches" destination="hXt-qJ-cRJ" collectionClass="NSMutableArray" id="04V-s5-IVO"/>
                         <segue destination="VVF-9i-WB2" kind="show" identifier="showResult" id="X2p-U8-e5C"/>
                     </connections>
                 </viewController>

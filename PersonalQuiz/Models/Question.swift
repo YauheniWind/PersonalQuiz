@@ -42,16 +42,16 @@ enum Animal: Character {
     }
 }
 
-extension Question {
-  static func getAnswers() -> [Answer] {
-    [
-      Answer(title: "🐶", animal: Animal.dog),
-      Answer(title: "🐱", animal: Animal.cat),
-      Answer(title: "🐰", animal: Animal.rabbit),
-      Answer(title: "🐢", animal: Animal.turtle)
-    ]
-  }
-}
+//extension Question {
+//  static func getAnswers() -> [Answer] {
+//    [
+//      Answer(title: "🐶", animal: Animal.dog),
+//      Answer(title: "🐱", animal: Animal.cat),
+//      Answer(title: "🐰", animal: Animal.rabbit),
+//      Answer(title: "🐢", animal: Animal.turtle)
+//    ]
+//  }
+//}
 
 extension Question {
     static func getQuestions() -> [Question] {

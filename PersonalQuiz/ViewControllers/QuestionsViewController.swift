@@ -33,7 +33,7 @@ class QuestionsViewController: UIViewController {
     // MARK: - Private Properties
     private let questions = Question.getQuestions()
     private var questionIndex = 0
-    private var animal = Question.getAnswers()
+//    private var animal = Question.getAnswers()
     private var answersChosen: [Answer] = []
     private var currentAnswers: [Answer] {
         questions[questionIndex].answers
@@ -45,8 +45,9 @@ class QuestionsViewController: UIViewController {
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     guard let resultVC = segue.destination as? ResultViewController else { return }
-    resultVC.resultAnswers = answersChosen
-    resultVC.currentAnimal = animal
+//    resultVC.resultAnswers = answersChosen
+//    resultVC.currentAnimal = animal
+    resultVC.responses = answersChosen
   }
     
     //MARK: - IBActions
